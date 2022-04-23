@@ -13,6 +13,7 @@ To get started developing right away:
 
 * Install all project dependencies with `npm install`
 * Start the development server with `npm start`
+* You can start testing by submting a `GET` request to the URL `http://localhost:3000/image?filename=encenadaport.jpg&width=200&height=200`
 
 ## Packages
 
