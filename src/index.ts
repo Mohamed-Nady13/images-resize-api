@@ -23,7 +23,8 @@ app.get('/image', (req: Request, res: Response) => {
       }
     );
   } else {
-    res.sendStatus(400).send('File not found');
+    res.statusCode = 400;
+    res.send('File not found');
   }
 });
 
